@@ -1,0 +1,63 @@
+.note {
+  background-color: #fbc6fb;
+  border-radius: 8px;
+  width: 280px;
+  margin: 0 10px 20px;
+  box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.2);
+  transition: all 0.5s;
+  cursor: pointer;
+  font-family: cursive;
+  display: inline-block;
+}
+
+.note .header {
+  padding: 10px 16px 0;
+  position: relative;
+}
+
+.note .header .note-close {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  line-height: 24px;
+  text-align: center;
+  transition: all 0.3s;
+  position: absolute;
+  right: 10px;
+}
+.note .header .note-close:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+.note .header .note-close:focus {
+  box-shadow: inset 2px 3px 0px rgba(0, 0, 0, 0.8);
+}
+
+.note .note-title,
+.note .note-body {
+  outline: 0;
+}
+.note .note-title {
+  font-size: 24px;
+  padding: 10px 16px;
+  font-weight: bold;
+}
+.note .note-body {
+  font-size: 20px;
+  padding: 10px 16px 16px;
+}
+.note:hover {
+  box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+/******************************Note-Taking Code***********************************************/
+body {
+  background-color: #9266ff;
+}
+
+.app-wrapper {
+  background-color: #3f3160;
+  min-height: 500px;
+  width: 400px;
+  margin: 40px auto;
+}

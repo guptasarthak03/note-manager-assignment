@@ -1,0 +1,69 @@
+body {
+  background-color: #9266ff;
+}
+.note-header {
+  background-color: rgb(61, 52, 119);
+  width: 80%;
+  min-width: 380px;
+  margin: 20px auto;
+  border-radius: 8px;
+}
+
+#note-form {
+  max-width: 375px;
+  margin: 0 auto;
+}
+
+#note-form input {
+  background-color: rgb(27, 112, 137);
+  border: 0;
+  width: 200px;
+  height: 50px;
+  padding: 0 20px;
+  font-size: 18px;
+  border-radius: 10px;
+  color: white;
+  margin-top: 10px;
+  vertical-align: top;
+}
+
+#note-form input::placeholder {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+#note-form input:focus,
+#note-form textarea:focus,
+#note-form button:focus {
+  outline: none;
+}
+
+#note-form textarea {
+  background-color: rgb(27, 112, 137);
+  border: 0;
+  border-radius: 10px;
+  color: #fff;
+  font-size: 18px;
+  padding: 10px 20px;
+  margin-top: 10px;
+  vertical-align: top;
+}
+
+#note-form textarea::placeholder {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+#note-form button {
+  height: 50px;
+  width: 80px;
+  border-radius: 5px;
+  background-color: rgb(202, 156, 24);
+  border: 0;
+  cursor: pointer;
+  font-weight: bolder;
+  margin: 10px 0;
+}
+
+.notes {
+  width: 80%;
+  margin: 40px auto;
+}
